@@ -1,0 +1,137 @@
+/*=====================================================================================================*/
+@media only screen and (min-width:1500px){
+     .col-custom-2 {
+    height: 250px;
+     }
+}
+
+
+
+
+
+/*=====================================================================================================*/
+@media only screen and (max-width:767px){
+    .head_left img{ margin: 10px auto;}
+    .head-right { text-align: center; float: none !important;}
+    .head-social { float: none !important; margin-bottom: 15px; }
+    .head-social li { float: none !important; display: inline-block;}
+    .search{ float: none !important;}
+    .col-custom-2{width: 100%;float: left;height: auto;overflow: hidden;}
+    .title-others, .social-share{ float: none !important;}
+    .title-others{ margin-bottom: 50px !important; }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {  color: #fff; }
+    .navbar-toggle { margin-top: 13px; margin-right: 25px; margin-bottom: 0; }
+    .navbar-header{ padding-left: 15px !important; }
+    .navbar-form { margin-right: 0; box-shadow: none; margin-top: 0; margin-bottom: 0; }
+    
+ 
+   #slider_book .booking {position: relative; top: 0; padding: 0; }
+    #slider_book{ padding: 0; margin: 0; }
+    #slider_book .booking h2 { text-align: center;
+        padding-top: 30px; }
+    #slider_book .booking-form {
+        background-color: #60a5eb; border-radius: 0; }
+    
+    #slider_book .booking-form .form-control { background-color: #fff; }
+    #slider_book .input-group-addon { background-color: #fff; border-radius: 0; }
+    #slider_book .btn-primary:hover{ background: transparent; border: 1px solid #fff; color: #fff !important; }
+}
+
+/*=====================================================================================================*/
+@media only screen and (max-width:480px){
+    .heading-title h1 { font-size: 28px; }
+    #effect-6 .col-xs-12{ margin-bottom: 30px;}
+    #effect-6 img{ border-top: 1px solid #ccc;   border-bottom: 1px solid #ccc;  }
+    .clearfix-xsl{ clear: both;}
+    .visible-xsl{ display: block !important; }
+    .mb15-xs{ margin-bottom: 15px; }
+    .head-social{ padding-left: 0 !important; padding-right: 0 !Important; }
+    .gall-img { height: 180px;}
+    
+}
+
+/*==================================================================================*/
+@media only screen and ( min-width:992px){
+    ul.nav li.dropdown:hover > ul.dropdown-menu {
+        display: block;    
+    }    
+    .about-paragraph .facilities:nth-child(2n+1) {clear: both;}
+    
+}
+/*==================================================================================*/
+@media only screen and (min-width:992px) and (max-width:1200px){
+    .navbar-default .navbar-nav > li > a, .dropdown-menu > li > a { font-size: 13px; }
+    .col-custom-2{width: 20%;float: left;height: 350px;overflow: hidden;}
+   .navbar-form {width: 148px;}
+}
+
+/*==================================================================================*/
+@media only screen and (min-width:768px) and (max-width:992px){
+    .container .navbar-brand, .navbar > .container-fluid .navbar-brand {  margin-left: 15px !important; }
+    .col-custom-3{width: 33.33%;float: left;height:300px;overflow: hidden;}
+    .col-custom-5{width: 50%;float: left;height:260px;overflow: hidden;}
+    .caption-for-slider{ top: 100px; }
+    .add-on {border-bottom: 2px solid #3484d6;}
+    .input-group {position: relative;display: table;border-collapse: separate;}
+    .navbar-form .input-group { width: 96%; }
+    .navbar-header {float: none;padding-left: 15px;}
+    #slider_book .booking{ top: 20px; }
+    #slider_book .booking-form { padding: 15px 5px 0px 5px;}
+    
+}
+
+/*=====================================================================================================*/
+@media only screen and (min-width:480px) and (max-width:767px){
+    .col-xsl-4{ width: 33.33%; float: left; }
+    .col-xsl-6{ width: 50%; float: left; }
+    
+}
+
+/*================================================================================*/
+@media (max-width: 991px) {
+        .pl0{ padding-left: 15px !important; }
+    
+        .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {color: #fff;background-color: transparent;} 
+    
+        .navbar-default .navbar-brand {color: #fff;}
+    
+        .navbar-header {float: none; padding-left: 30px;}
+    
+        .navbar-left,.navbar-right {float: none !important;}
+    
+        .navbar-toggle {display: block; float: left !important;}
+    
+        .navbar-collapse {border-top: 1px solid transparent;box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);}
+    
+        .navbar-fixed-top {top: 0;border-width: 0 0 1px;}
+    
+        .navbar-collapse.collapse {display: none!important;}
+    
+        .navbar-nav {float: none!important;margin: 10px 0;}
+    
+        .navbar-nav>li {float: none;}
+    
+        .navbar-nav>li>a {padding-top: 10px;padding-bottom: 10px;}
+    
+        .collapse.in{display:block !important;}
+    
+        .navbar-default .navbar-toggle {border:none;padding: 10px 0px;}
+    
+        .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {background: transparent !important;}
+    
+        .navbar-default .navbar-toggle:focus .icon-bar, .navbar-default .navbar-toggle:hover .icon-bar {background-color: #fff;}
+    
+        .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active { transform: none;color: #fff;background: #0f61b5;}
+    
+        .navbar-nav .open .dropdown-menu {position: static;float: none;width: auto;margin-top: 0px;background-color: transparent;border: 0px none;box-shadow: none;border-top: 1px solid #fff;border-bottom: 1px solid #fff;}
+    
+        .navbar-nav .open .dropdown-menu .dropdown-header, .navbar-nav .open .dropdown-menu > li > a {padding: 10px 15px 10px 25px;}
+    
+        .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {   color: #fff; background: #0f61b5; }
+    
+        .navbar-default .navbar-toggle .icon-bar {  background-color: #fff; }
+
+        .facilities i{ font-size: 70px; margin-bottom: 15px; }
+        .facilities h3, .facilities p{ text-align: center; }
+    
+}
